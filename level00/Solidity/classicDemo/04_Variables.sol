@@ -12,6 +12,8 @@ contract Variables {
 
         // 全局变量
         uint256 timestamp = block.timestamp; // block 全局变量
+
+        address sender = msg.sender; // msg 全局变量
     }
 
 }
